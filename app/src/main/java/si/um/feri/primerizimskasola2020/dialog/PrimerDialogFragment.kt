@@ -25,14 +25,16 @@ class PrimerDialogFragment : DialogFragment() {
         return activity?.let {
             val builder = AlertDialog.Builder(it)
             builder.setMessage(R.string.question)
-                .setPositiveButton(R.string.ok,
-                    DialogInterface.OnClickListener { dialog, id ->
-                        Toast.makeText(context, "Dobro, nadaljujemo...", Toast.LENGTH_SHORT).show()
-                    })
-                .setNegativeButton(R.string.cancel,
-                    DialogInterface.OnClickListener { dialog, id ->
-                        Toast.makeText(context, "OK, gremo domov!", Toast.LENGTH_SHORT).show()
-                    })
+                .setPositiveButton(
+                    R.string.ok
+                ) { _, _ ->
+                    Toast.makeText(context, "Dobro, nadaljujemo...", Toast.LENGTH_SHORT).show()
+                }
+                .setNegativeButton(
+                    R.string.cancel
+                ) { _, _ ->
+                    Toast.makeText(context, "OK, gremo domov!", Toast.LENGTH_SHORT).show()
+                }
             builder.create()
         } ?: throw IllegalStateException("Activity cannot be null")
     }

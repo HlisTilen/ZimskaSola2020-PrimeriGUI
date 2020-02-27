@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">PrimeriZimskaSola2020</string>
+    <string name="app_name">IZUM2020</string>
     <string name="button">Button</string>
     <string name="Degrees">%s°C</string>
     <string name="Day">Day</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="question">Nadaljujem z zimsko šolo?</string>
-    <string name="ok">Daj te...</string>
-    <string name="cancel">nehaj že...</string>
+    <string name="question">Nadaljujemo?</string>
+    <string name="ok">DA</string>
+    <string name="cancel">NE</string>
     <string name="title_activity_menu">MenuActivity</string>
     <string name="action_settings">Nastavitve</string>
     <string name="action_share">Deli</string>
@@ -23,4 +23,17 @@
     <string name="novo_obvestilo">Novo obvestilo</string>
     <string name="sporocilo">Sem si prišel iz obvestila</string>
     <string name="snooze">Dremež</string>
+    <string name="imeLabel">Ime</string>
+    <string name="imeInput">Ime</string>
+    <string name="priimekLabel">Priimek</string>
+    <string name="priimekInput">Priimek</string>
+    <string name="tezaLabel">Teža</string>
+    <string name="tezaInput">Teža</string>
+    <string name="visinaLabel">Višina</string>
+    <string name="visinaInput">Višina</string>
+    <string name="gumbDodaj">Shrani</string>
+    <string name="message">Watch face tapped</string>
+    <string name="my_analog_name">My Analog</string>
+    <string name="preklici">Prekliči</string>
+    <string name="odpriDialog">Odpri dialog</string>
 </resources>
