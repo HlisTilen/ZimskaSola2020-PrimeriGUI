@@ -36,9 +36,6 @@ class Launcher : AppCompatActivity() {
         simpleDialog.setOnClickListener {
             startActivity(Intent(this, DialogActivity::class.java))
         }
-        fragmentActivity.setOnClickListener {
-            startActivity(Intent(this, FragmentActivity::class.java))
-        }
         gestures.setOnClickListener {
             startActivity(Intent(this, GesturesActivity::class.java))
         }

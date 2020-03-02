@@ -44,22 +44,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/simple_dialog"
-        app:layout_constraintBottom_toTopOf="@+id/fragmentActivity"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/customDialog" />
-
-    <Button
-        android:id="@+id/fragmentActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/simple_fragment"
         app:layout_constraintBottom_toTopOf="@+id/gestures"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/simpleDialog" />
+        app:layout_constraintTop_toBottomOf="@+id/customDialog" />
 
     <Button
         android:id="@+id/gestures"
@@ -70,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fragmentActivity" />
+        app:layout_constraintTop_toBottomOf="@+id/simpleDialog" />
 
     <Button
         android:id="@+id/horizontalVertical"
