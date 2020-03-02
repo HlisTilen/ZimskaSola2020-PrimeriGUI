@@ -36,4 +36,17 @@
     <string name="my_analog_name">My Analog</string>
     <string name="preklici">Prekliči</string>
     <string name="odpriDialog">Odpri dialog</string>
+    <string name="komunikacija_aktivnost_fragment">Komunikacija aktivnost fragment</string>
+    <string name="constraint_layout">Constraint layout</string>
+    <string name="custom_dialog">Custom dialog</string>
+    <string name="simple_dialog">Simple dialog</string>
+    <string name="simple_fragment">Simple fragment</string>
+    <string name="gestures">Gestures</string>
+    <string name="horizontal_vertical_layout">Horizontal/vertical layout</string>
+    <string name="linear_layout">Linear layout</string>
+    <string name="menu">Menu</string>
+    <string name="motion_activity">Motion activity</string>
+    <string name="notification_activity">Notification activity</string>
+    <string name="recycler_view">Recycler View</string>
+    <string name="view_pager">View pager</string>
 </resources>

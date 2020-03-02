@@ -14,14 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".customDialog.CustomDialog">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".customDialog.CustomDialog">
         </activity>
-        <activity android:name=".horizontalVerticalLayout.Layouts"></activity>
+        <activity android:name=".horizontalVerticalLayout.Layouts" />
         <activity android:name=".notification.FromNotificationActivity" />
         <activity android:name=".notification.NotificationActivity" />
         <activity android:name=".communicationFragmentActivity.CommunicationActivity" />
@@ -32,13 +28,18 @@
             android:name=".menu.MenuActivity"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".dialog.DialogActivity">
-
-        </activity>
-        <activity android:name=".recyclerView.RecyclerViewActivity"></activity>
+        <activity android:name=".dialog.DialogActivity" />
+        <activity android:name=".recyclerView.RecyclerViewActivity" />
         <activity android:name=".motionLayout.MotionLayout" />
         <activity android:name=".linearLayout.PrimerSimpleLinearLayout" />
         <activity android:name=".constraintLayout.ConstraintLayoutActivity" />
+        <activity android:name=".Launcher" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
